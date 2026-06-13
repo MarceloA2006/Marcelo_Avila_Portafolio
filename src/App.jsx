@@ -1,4 +1,5 @@
 import { useState } from "react";
+import AboutMe from "./Componentes/AboutMe";
 import Navbar from "./Componentes/Navbar";
 import Hero from "./Componentes/Hero";
 import ExperienceSection from "./Componentes/ExperienceSection";
@@ -17,6 +18,7 @@ export default function App() {
       <div className="main-wrapper">
       <main className="main-content">
         <Hero onToggleTheme={() => setIsDark(!isDark)} isDark={isDark} />
+        <AboutMe />
         <ExperienceSection />
         <ProjectsCarousel />
 

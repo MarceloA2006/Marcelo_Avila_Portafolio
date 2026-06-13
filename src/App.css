@@ -119,6 +119,8 @@ body { font-family: 'Inter', sans-serif; }
 
 /* ===== TABS ===== */
 .exp-section { margin-bottom: 3rem;}
+.AboutMe-descripcion{margin-bottom: 3rem;}
+.aboutme-parrafo{margin-bottom: 1rem; color: #aaa;}
 .tab-buttons { display: flex; margin-bottom: 1rem; }
 .tab-btn {
   flex: 1; padding: 0.65rem; border: 1px solid var(--accent);
