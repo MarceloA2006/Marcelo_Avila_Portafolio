@@ -2,6 +2,7 @@ import { useState } from "react";
 import AboutMe from "./Componentes/AboutMe";
 import Navbar from "./Componentes/Navbar";
 import Hero from "./Componentes/Hero";
+import Services from "./Componentes/Services";
 import ExperienceSection from "./Componentes/ExperienceSection";
 import ProjectsCarousel from "./Componentes/ProjectsCarousel";
 import TechBadge from "./Componentes/TechBadge";
@@ -20,6 +21,7 @@ export default function App() {
         <Hero onToggleTheme={() => setIsDark(!isDark)} isDark={isDark} />
         <AboutMe />
         <ExperienceSection />
+        <Services />
         <ProjectsCarousel />
 
         <section className="tech-section">
