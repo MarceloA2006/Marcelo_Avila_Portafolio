@@ -19,12 +19,10 @@ export default function Hero({ onToggleTheme, isDark }) {
 
         <div className="hero-text">
           <p className="hero-greeting">
-            ¡Hola! Soy <span className="accent">Marcelo Ávila</span> y soy un
+            Hello! I'm <span className="accent">Marcelo Ávila</span> and I am a
           </p>
           <h1 className="hero-title">
-            Desarrollador Frontend y estudiante de Ingeniería en Tecnologías
-            Computacionales con experiencia en desarrollo web utilizando React y
-            Nuxt.js.
+            Frontend Developer and Engineering in computational technologies student with experience in web development using React and Nuxt.js and interested in data science.
           </h1>
 
           <div className="hero-links">
@@ -37,7 +35,7 @@ export default function Hero({ onToggleTheme, isDark }) {
             <a href="mailto:marcelo.avg06@gmail.com" aria-label="Email">
               <FaEnvelope />
             </a>
-            <a href="/Marcelo_Avila_CV.pdf" download aria-label="Descargar CV">
+            <a href="/Marcelo_Avila_CV.pdf" download aria-label="Download CV">
               <HiDocument />
             </a>
           </div>

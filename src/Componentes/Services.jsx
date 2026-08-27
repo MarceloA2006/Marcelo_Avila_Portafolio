@@ -1,41 +1,41 @@
 export default function Services(){
     return(
         <section>
-        <h2 className="section-title">Mis servicios</h2>
+        <h2 className="section-title">My Services</h2>
         <div className="services-card-container">
             <div className="services-card">
                 <h2 className="services-card-title">Landing pages</h2>
-                <p className="services-card-content">Sitios web modernos diseñados para generar confianza y convertir visitantes en clientes.</p>
+                <p className="services-card-content">Modern websites designed to build trust and convert visitors into clients.</p>
                 <ul className="service-list">
-                    <li>Optimizadas</li>
-                    <li>Diseño personalizado</li>
-                    <li>Rapidas y optimizadas</li>
+                    <li>Optimized</li>
+                    <li>Custom design</li>
+                    <li>Fast and optimized</li>
                 </ul>
             </div>
             <div className="services-card">
-                <h2 className="services-card-title">Sitios web empresariales</h2>
-                <p className="services-card-content">Presenta tu negocio de manera profesional en cualquier dispositivo.</p>
+                <h2 className="services-card-title">Business websites</h2>
+                <p className="services-card-content">Present your business professionally on any device.</p>
                 <ul className="service-list">
-                    <li>Mayor credibilidad para tu negocio</li>
-                    <li>Información accesible para tus clientes</li>
-                    <li>Presencia profesional en el internet</li>
+                    <li>Greater credibility for your business</li>
+                    <li>Accessible information for your clients</li>
+                    <li>Professional presence on the internet</li>
                 </ul>
             </div>
             <div className="services-card">
-                <h2 className="services-card-title">Diseño UI/UX</h2>
-                <p className="services-card-content">Diseño interfaces modernas, intuitivas y responsivas enfocadas en ofrecer una buena experiencia de usuario antes de comenzar el desarrollo.</p>
+                <h2 className="services-card-title">UI/UX Design</h2>
+                <p className="services-card-content">Design modern, intuitive and responsive interfaces focused on delivering a good user experience before starting development.</p>
                    <ul className="service-list">
-                    <li>Interfaces responsivas</li>
-                    <li>Experiencia de usuario</li>
-                    <li>Diseños modernos</li>
+                    <li>Responsive interfaces</li>
+                    <li>User experience</li>
+                    <li>Modern designs</li>
                 </ul>
             </div>
             <div className="services-card">
-                <h2 className="services-card-title">Desarrollo Frontend</h2>
-                <p className="services-card-content">Desarrollo interfaces modernas y responsivas utilizando tecnologías actuales.</p>
+                <h2 className="services-card-title">Frontend Development</h2>
+                <p className="services-card-content">Develop modern and responsive interfaces using current technologies.</p>
                 <ul className="service-list">
-                    <li>Tecnologias modernas</li>
-                    <li>Diseños responsivos</li>
+                    <li>Modern technologies</li>
+                    <li>Responsive designs</li>
                 </ul>
             </div>
         </div>

@@ -2,10 +2,10 @@ export const education = [
   {
     id: 1,
     institution: "Universidad de Monterrey (UDEM)",
-    degree: "Ingeniería en Tecnologías Computacionales",
-    period: "Agosto 2024 - presente",
+    degree: "Engineering in computational technologies",
+    period: "August 2024 - present",
     bullets: [
     ],
   },
-  // Agrega más entradas aquí con el mismo formato
+  // Add more entries here with the same format
 ];

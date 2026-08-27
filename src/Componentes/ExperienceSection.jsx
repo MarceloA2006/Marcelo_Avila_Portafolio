@@ -5,27 +5,27 @@ import { experiences } from "../data/experience";
 import { education } from "../data/education";
 
 export default function ExperienceSection() {
-  const [activeTab, setActiveTab] = useState("experiencia");
+  const [activeTab, setActiveTab] = useState("experience");
 
   return (
     <section className="exp-section">
       <div className="tab-buttons">
         <button
-          className={`tab-btn ${activeTab === "experiencia" ? "active" : ""}`}
-          onClick={() => setActiveTab("experiencia")}
+          className={`tab-btn ${activeTab === "experience" ? "active" : ""}`}
+          onClick={() => setActiveTab("experience")}
         >
-          Experiencia
+          Experience
         </button>
         <button
-          className={`tab-btn ${activeTab === "educacion" ? "active" : ""}`}
-          onClick={() => setActiveTab("educacion")}
+          className={`tab-btn ${activeTab === "education" ? "active" : ""}`}
+          onClick={() => setActiveTab("education")}
         >
-          Educación
+          Education
         </button>
       </div>
 
       <div className="tab-content">
-        {activeTab === "experiencia"
+        {activeTab === "experience"
           ? experiences.map((exp) => <ExperienceCard key={exp.id} {...exp} />)
           : education.map((edu) => <EducationCard key={edu.id} {...edu} />)}
       </div>

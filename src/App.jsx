@@ -25,7 +25,7 @@ export default function App() {
         <ProjectsCarousel />
 
         <section className="tech-section">
-          <h2 className="section-title">Tecnologías</h2>
+          <h2 className="section-title">Technologies</h2>
           <div className="tech-grid">
             {technologies.map((t) => (
               <TechBadge key={t.name} {...t} />
