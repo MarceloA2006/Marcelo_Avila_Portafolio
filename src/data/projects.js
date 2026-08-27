@@ -15,7 +15,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Flujo Optimo (Repositorio)",
+    title: "Flujo Optimo (Repository)",
     description: "Web app for hospital with dashboards, kpi and graphs implemented with Flask, SQL, MongoDB.",
     image: "/flujoopt.png",
     link: "https://github.com/MarceloA2006/Flujo-Dinamico",
