@@ -1,5 +1,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { HiDocument } from "react-icons/hi2";
+import { dataTech } from "../data/dataTech";
+import TechBadge from "./TechBadge";
 import { BsMoonStarsFill, BsSunFill } from "react-icons/bs";
 
 export default function Hero({ onToggleTheme, isDark }) {
@@ -22,8 +24,17 @@ export default function Hero({ onToggleTheme, isDark }) {
             Hello! I'm <span className="accent">Marcelo Ávila</span> and I am a
           </p>
           <h1 className="hero-title">
-            Frontend Developer and Engineering in computational technologies student with experience in web development using React and Nuxt.js and interested in data science.
+            Data Science & Software Engineering Student.
+            
           </h1>
+
+          <div className="tech-grid-data">
+                      {dataTech.map((t) => (
+                        <TechBadge key={t.name} {...t} />
+                      ))}
+                    </div>
+          
+      
 
           <div className="hero-links">
             <a href="https://github.com/MarceloA2006" target="_blank" rel="noreferrer" aria-label="GitHub">

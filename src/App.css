@@ -106,7 +106,7 @@ body { font-family: 'Inter', sans-serif; }
 .light .footer-right a {
   color: var(--text);
 }
-.hero-content { display: flex; gap: 2rem; align-items: flex-start; margin-top: 1rem; }
+.hero-content { display: flex; gap: 2rem; align-items: center; margin-top: 1rem; }
 .hero-photo {
   width: 160px; height: 200px; flex-shrink: 0;
   background: #bbb; border-radius: 8px;
@@ -282,6 +282,7 @@ position: relative;
 /* ===== TECH ===== */
 .tech-section { margin-bottom: 3rem; }
 .tech-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.tech-grid-data { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;}
 .tech-badge {
   display: flex; align-items: center; gap: 0.5rem;
   padding: 0.5rem 1rem; border: 1px solid #09787D;

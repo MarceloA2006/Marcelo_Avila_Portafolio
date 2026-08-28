@@ -1,41 +1,45 @@
 export default function Services(){
     return(
         <section>
-        <h2 className="section-title">My Services</h2>
+        <h2 className="section-title">Technical skills</h2>
         <div className="services-card-container">
             <div className="services-card">
-                <h2 className="services-card-title">Landing pages</h2>
-                <p className="services-card-content">Modern websites designed to build trust and convert visitors into clients.</p>
+                <h2 className="services-card-title">Data analysis</h2>
+                <p className="services-card-content">Transform data into meaningful insights through analysis and statistical methods.</p>
                 <ul className="service-list">
-                    <li>Optimized</li>
-                    <li>Custom design</li>
-                    <li>Fast and optimized</li>
+                    <li>Data cleaning & exploration</li>
+                    <li>Statistical analysis</li>
+                    <li>KPI development</li>
+                    <li>Data-driven insights</li>
                 </ul>
             </div>
             <div className="services-card">
-                <h2 className="services-card-title">Business websites</h2>
-                <p className="services-card-content">Present your business professionally on any device.</p>
+                <h2 className="services-card-title">SQL & Databases</h2>
+                <p className="services-card-content">Work with structured and non-structured data to extract and organize relevant information.</p>
                 <ul className="service-list">
-                    <li>Greater credibility for your business</li>
-                    <li>Accessible information for your clients</li>
-                    <li>Professional presence on the internet</li>
+                    <li>SQL, complex queries and stored procedures</li>
+                    <li>PostgreSQL / MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Data modeling</li>
                 </ul>
             </div>
             <div className="services-card">
-                <h2 className="services-card-title">UI/UX Design</h2>
-                <p className="services-card-content">Design modern, intuitive and responsive interfaces focused on delivering a good user experience before starting development.</p>
+                <h2 className="services-card-title">Data visualization</h2>
+                <p className="services-card-content">Communicate complex information through clear and meaningful visualizations.</p>
                    <ul className="service-list">
-                    <li>Responsive interfaces</li>
-                    <li>User experience</li>
-                    <li>Modern designs</li>
+                    <li>KPI dashboards</li>
+                    <li>Data storytelling</li>
+                    <li>Trend & pattern analysis</li>
                 </ul>
             </div>
             <div className="services-card">
-                <h2 className="services-card-title">Frontend Development</h2>
-                <p className="services-card-content">Develop modern and responsive interfaces using current technologies.</p>
+                <h2 className="services-card-title">Software Development</h2>
+                <p className="services-card-content">Build applications and data-driven solutions using modern development technologies.</p>
                 <ul className="service-list">
-                    <li>Modern technologies</li>
-                    <li>Responsive designs</li>
+                    <li>Python / Flask</li>
+                    <li>React / JavaScript</li>
+                    <li>REST APIs</li>
+                    <li>Git & GitHub</li>
                 </ul>
             </div>
         </div>

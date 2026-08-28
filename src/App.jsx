@@ -5,6 +5,7 @@ import Hero from "./Componentes/Hero";
 import Services from "./Componentes/Services";
 import ExperienceSection from "./Componentes/ExperienceSection";
 import ProjectsCarousel from "./Componentes/ProjectsCarousel";
+import ProjectsCarouselDataScience from "./Componentes/ProjectsCarouselDataScience";
 import TechBadge from "./Componentes/TechBadge";
 import Footer from "./Componentes/Footer";
 import { technologies } from "./data/technologies";
@@ -20,6 +21,7 @@ export default function App() {
       <main className="main-content">
         <Hero onToggleTheme={() => setIsDark(!isDark)} isDark={isDark} />
         <AboutMe />
+        <ProjectsCarouselDataScience />
         <ExperienceSection />
         <Services />
         <ProjectsCarousel />
