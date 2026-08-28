@@ -10,7 +10,7 @@ export default function ProjectsCarousel() {
 
   return (
     <section className="projects-section">
-      <h2 className="section-title">My projects</h2>
+      <h2 className="section-title">My software related projects</h2>
       <div className="carousel">
         <button className="carousel-btn" onClick={prev}>‹</button>
 

@@ -22,8 +22,8 @@ export default function App() {
         <Hero onToggleTheme={() => setIsDark(!isDark)} isDark={isDark} />
         <AboutMe />
         <ProjectsCarouselDataScience />
-        <ExperienceSection />
         <Services />
+        <ExperienceSection />
         <ProjectsCarousel />
 
         <section className="tech-section">
