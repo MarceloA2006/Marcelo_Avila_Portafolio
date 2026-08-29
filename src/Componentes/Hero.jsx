@@ -46,7 +46,7 @@ export default function Hero({ onToggleTheme, isDark }) {
             <a href="mailto:marcelo.avg06@gmail.com" aria-label="Email">
               <FaEnvelope />
             </a>
-            <a href="/Marcelo_Avila_CV English.pdf" download aria-label="Download CV">
+            <a href="/Marcelo_Avila_CVAct.pdf" download aria-label="Download CV">
               <HiDocument />
             </a>
           </div>
